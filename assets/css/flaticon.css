@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.woff2?baba9fb4fca8c3ae8d6a61a04a44cee4") format("woff2"),
+url("../fonts/flaticon.woff?baba9fb4fca8c3ae8d6a61a04a44cee4") format("woff"),
+url("../fonts/flaticon.eot?baba9fb4fca8c3ae8d6a61a04a44cee4#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.ttf?baba9fb4fca8c3ae8d6a61a04a44cee4") format("truetype"),
+url("../fonts/flaticon.svg?baba9fb4fca8c3ae8d6a61a04a44cee4#flaticon") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-inclusion:before {
+    content: "\f101";
+}
+.flaticon-support:before {
+    content: "\f102";
+}
+.flaticon-accountability:before {
+    content: "\f103";
+}
+.flaticon-honesty:before {
+    content: "\f104";
+}
+.flaticon-personalization:before {
+    content: "\f105";
+}
+.flaticon-compassion:before {
+    content: "\f106";
+}
+.flaticon-compassion-1:before {
+    content: "\f107";
+}
+.flaticon-calendar:before {
+    content: "\f108";
+}
+.flaticon-call:before {
+    content: "\f109";
+}
+.flaticon-location:before {
+    content: "\f10a";
+}
+.flaticon-pin:before {
+    content: "\f10b";
+}
+.flaticon-pin-1:before {
+    content: "\f10c";
+}
+.flaticon-email:before {
+    content: "\f10d";
+}
+.flaticon-paper-plane:before {
+    content: "\f10e";
+}
+.flaticon-mail:before {
+    content: "\f10f";
+}
+.flaticon-arrow:before {
+    content: "\f110";
+}
+.flaticon-circles:before {
+    content: "\f111";
+}
+.flaticon-list:before {
+    content: "\f112";
+}
+.flaticon-check:before {
+    content: "\f113";
+}
+.flaticon-check-1:before {
+    content: "\f114";
+}
+.flaticon-list-1:before {
+    content: "\f115";
+}
+.flaticon-couple:before {
+    content: "\f116";
+}
+.flaticon-inclusive:before {
+    content: "\f117";
+}
+.flaticon-walking-aid:before {
+    content: "\f118";
+}
+.flaticon-sensory-sensitivity:before {
+    content: "\f119";
+}
+.flaticon-developmental:before {
+    content: "\f11a";
+}
+.flaticon-autism:before {
+    content: "\f11b";
+}
+.flaticon-shape:before {
+    content: "\f11c";
+}
+.flaticon-protection:before {
+    content: "\f11d";
+}
+.flaticon-medicine:before {
+    content: "\f11e";
+}
+.flaticon-healthcare:before {
+    content: "\f11f";
+}
+.flaticon-solidarity:before {
+    content: "\f120";
+}
+.flaticon-nursing-home:before {
+    content: "\f121";
+}
+.flaticon-earth:before {
+    content: "\f122";
+}
+.flaticon-eco-world:before {
+    content: "\f123";
+}
+.flaticon-healthcare-1:before {
+    content: "\f124";
+}
+.flaticon-price-tag:before {
+    content: "\f125";
+}
+.flaticon-competitive:before {
+    content: "\f126";
+}
+.flaticon-tag:before {
+    content: "\f127";
+}
+.flaticon-award:before {
+    content: "\f128";
+}
+.flaticon-award-1:before {
+    content: "\f129";
+}
+.flaticon-form:before {
+    content: "\f12a";
+}
+.flaticon-contact-form:before {
+    content: "\f12b";
+}
+.flaticon-list-2:before {
+    content: "\f12c";
+}
+.flaticon-fill:before {
+    content: "\f12d";
+}
+.flaticon-arrow-2:before {
+    content: "\f12e";
+}
+.flaticon-checklist:before {
+    content: "\f12f";
+}
+.flaticon-checkmark:before {
+    content: "\f130";
+}
+.flaticon-calendar-1:before {
+    content: "\f131";
+}
+.flaticon-calendar-2:before {
+    content: "\f132";
+}
+.flaticon-calendar-3:before {
+    content: "\f133";
+}
+.flaticon-calendar-4:before {
+    content: "\f134";
+}
+.flaticon-smartphone:before {
+    content: "\f135";
+}
+.flaticon-touch:before {
+    content: "\f136";
+}
+.flaticon-signal:before {
+    content: "\f137";
+}
+.flaticon-phone:before {
+    content: "\f138";
+}
+.flaticon-location-1:before {
+    content: "\f139";
+}
+.flaticon-location-pin:before {
+    content: "\f13a";
+}
+.flaticon-navigation:before {
+    content: "\f13b";
+}
+.flaticon-career-promotion:before {
+    content: "\f13c";
+}
+.flaticon-job:before {
+    content: "\f13d";
+}
+.flaticon-business-and-trade:before {
+    content: "\f13e";
+}
+.flaticon-job-1:before {
+    content: "\f13f";
+}
+.flaticon-aim:before {
+    content: "\f140";
+}
+.flaticon-cooperation:before {
+    content: "\f141";
+}
+.flaticon-growth:before {
+    content: "\f142";
+}
+.flaticon-whatsapp:before {
+    content: "\f143";
+}
+.flaticon-text-format:before {
+    content: "\f144";
+}
+.flaticon-chat:before {
+    content: "\f145";
+}
+.flaticon-web-domain:before {
+    content: "\f146";
+}
+.flaticon-community:before {
+    content: "\f147";
+}
+.flaticon-community-1:before {
+    content: "\f148";
+}
+.flaticon-community-2:before {
+    content: "\f149";
+}
+.flaticon-community-3:before {
+    content: "\f14a";
+}
+.flaticon-group:before {
+    content: "\f14b";
+}
+.flaticon-people:before {
+    content: "\f14c";
+}
+.flaticon-house:before {
+    content: "\f14d";
+}
+.flaticon-work-from-home:before {
+    content: "\f14e";
+}
+.flaticon-wheelchair:before {
+    content: "\f14f";
+}
+
