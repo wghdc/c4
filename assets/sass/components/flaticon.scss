@@ -1,0 +1,341 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.woff2?baba9fb4fca8c3ae8d6a61a04a44cee4") format("woff2"),
+url("./flaticon.woff?baba9fb4fca8c3ae8d6a61a04a44cee4") format("woff"),
+url("./flaticon.eot?baba9fb4fca8c3ae8d6a61a04a44cee4#iefix") format("embedded-opentype"),
+url("./flaticon.ttf?baba9fb4fca8c3ae8d6a61a04a44cee4") format("truetype"),
+url("./flaticon.svg?baba9fb4fca8c3ae8d6a61a04a44cee4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "inclusion": "\f101",
+    "support": "\f102",
+    "accountability": "\f103",
+    "honesty": "\f104",
+    "personalization": "\f105",
+    "compassion": "\f106",
+    "compassion-1": "\f107",
+    "calendar": "\f108",
+    "call": "\f109",
+    "location": "\f10a",
+    "pin": "\f10b",
+    "pin-1": "\f10c",
+    "email": "\f10d",
+    "paper-plane": "\f10e",
+    "mail": "\f10f",
+    "arrow": "\f110",
+    "circles": "\f111",
+    "list": "\f112",
+    "check": "\f113",
+    "check-1": "\f114",
+    "list-1": "\f115",
+    "couple": "\f116",
+    "inclusive": "\f117",
+    "walking-aid": "\f118",
+    "sensory-sensitivity": "\f119",
+    "developmental": "\f11a",
+    "autism": "\f11b",
+    "shape": "\f11c",
+    "protection": "\f11d",
+    "medicine": "\f11e",
+    "healthcare": "\f11f",
+    "solidarity": "\f120",
+    "nursing-home": "\f121",
+    "earth": "\f122",
+    "eco-world": "\f123",
+    "healthcare-1": "\f124",
+    "price-tag": "\f125",
+    "competitive": "\f126",
+    "tag": "\f127",
+    "award": "\f128",
+    "award-1": "\f129",
+    "form": "\f12a",
+    "contact-form": "\f12b",
+    "list-2": "\f12c",
+    "fill": "\f12d",
+    "arrow-2": "\f12e",
+    "checklist": "\f12f",
+    "checkmark": "\f130",
+    "calendar-1": "\f131",
+    "calendar-2": "\f132",
+    "calendar-3": "\f133",
+    "calendar-4": "\f134",
+    "smartphone": "\f135",
+    "touch": "\f136",
+    "signal": "\f137",
+    "phone": "\f138",
+    "location-1": "\f139",
+    "location-pin": "\f13a",
+    "navigation": "\f13b",
+    "career-promotion": "\f13c",
+    "job": "\f13d",
+    "business-and-trade": "\f13e",
+    "job-1": "\f13f",
+    "aim": "\f140",
+    "cooperation": "\f141",
+    "growth": "\f142",
+    "whatsapp": "\f143",
+    "text-format": "\f144",
+    "chat": "\f145",
+    "web-domain": "\f146",
+    "community": "\f147",
+    "community-1": "\f148",
+    "community-2": "\f149",
+    "community-3": "\f14a",
+    "group": "\f14b",
+    "people": "\f14c",
+    "house": "\f14d",
+    "work-from-home": "\f14e",
+    "wheelchair": "\f14f",
+);
+
+.flaticon-inclusion:before {
+    content: map-get($flaticon-map, "inclusion");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-accountability:before {
+    content: map-get($flaticon-map, "accountability");
+}
+.flaticon-honesty:before {
+    content: map-get($flaticon-map, "honesty");
+}
+.flaticon-personalization:before {
+    content: map-get($flaticon-map, "personalization");
+}
+.flaticon-compassion:before {
+    content: map-get($flaticon-map, "compassion");
+}
+.flaticon-compassion-1:before {
+    content: map-get($flaticon-map, "compassion-1");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-pin-1:before {
+    content: map-get($flaticon-map, "pin-1");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon-map, "arrow");
+}
+.flaticon-circles:before {
+    content: map-get($flaticon-map, "circles");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-check-1:before {
+    content: map-get($flaticon-map, "check-1");
+}
+.flaticon-list-1:before {
+    content: map-get($flaticon-map, "list-1");
+}
+.flaticon-couple:before {
+    content: map-get($flaticon-map, "couple");
+}
+.flaticon-inclusive:before {
+    content: map-get($flaticon-map, "inclusive");
+}
+.flaticon-walking-aid:before {
+    content: map-get($flaticon-map, "walking-aid");
+}
+.flaticon-sensory-sensitivity:before {
+    content: map-get($flaticon-map, "sensory-sensitivity");
+}
+.flaticon-developmental:before {
+    content: map-get($flaticon-map, "developmental");
+}
+.flaticon-autism:before {
+    content: map-get($flaticon-map, "autism");
+}
+.flaticon-shape:before {
+    content: map-get($flaticon-map, "shape");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon-map, "medicine");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon-map, "healthcare");
+}
+.flaticon-solidarity:before {
+    content: map-get($flaticon-map, "solidarity");
+}
+.flaticon-nursing-home:before {
+    content: map-get($flaticon-map, "nursing-home");
+}
+.flaticon-earth:before {
+    content: map-get($flaticon-map, "earth");
+}
+.flaticon-eco-world:before {
+    content: map-get($flaticon-map, "eco-world");
+}
+.flaticon-healthcare-1:before {
+    content: map-get($flaticon-map, "healthcare-1");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-competitive:before {
+    content: map-get($flaticon-map, "competitive");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon-map, "tag");
+}
+.flaticon-award:before {
+    content: map-get($flaticon-map, "award");
+}
+.flaticon-award-1:before {
+    content: map-get($flaticon-map, "award-1");
+}
+.flaticon-form:before {
+    content: map-get($flaticon-map, "form");
+}
+.flaticon-contact-form:before {
+    content: map-get($flaticon-map, "contact-form");
+}
+.flaticon-list-2:before {
+    content: map-get($flaticon-map, "list-2");
+}
+.flaticon-fill:before {
+    content: map-get($flaticon-map, "fill");
+}
+.flaticon-arrow-2:before {
+    content: map-get($flaticon-map, "arrow-2");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon-map, "checklist");
+}
+.flaticon-checkmark:before {
+    content: map-get($flaticon-map, "checkmark");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon-map, "calendar-2");
+}
+.flaticon-calendar-3:before {
+    content: map-get($flaticon-map, "calendar-3");
+}
+.flaticon-calendar-4:before {
+    content: map-get($flaticon-map, "calendar-4");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-touch:before {
+    content: map-get($flaticon-map, "touch");
+}
+.flaticon-signal:before {
+    content: map-get($flaticon-map, "signal");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-location-1:before {
+    content: map-get($flaticon-map, "location-1");
+}
+.flaticon-location-pin:before {
+    content: map-get($flaticon-map, "location-pin");
+}
+.flaticon-navigation:before {
+    content: map-get($flaticon-map, "navigation");
+}
+.flaticon-career-promotion:before {
+    content: map-get($flaticon-map, "career-promotion");
+}
+.flaticon-job:before {
+    content: map-get($flaticon-map, "job");
+}
+.flaticon-business-and-trade:before {
+    content: map-get($flaticon-map, "business-and-trade");
+}
+.flaticon-job-1:before {
+    content: map-get($flaticon-map, "job-1");
+}
+.flaticon-aim:before {
+    content: map-get($flaticon-map, "aim");
+}
+.flaticon-cooperation:before {
+    content: map-get($flaticon-map, "cooperation");
+}
+.flaticon-growth:before {
+    content: map-get($flaticon-map, "growth");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-text-format:before {
+    content: map-get($flaticon-map, "text-format");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-web-domain:before {
+    content: map-get($flaticon-map, "web-domain");
+}
+.flaticon-community:before {
+    content: map-get($flaticon-map, "community");
+}
+.flaticon-community-1:before {
+    content: map-get($flaticon-map, "community-1");
+}
+.flaticon-community-2:before {
+    content: map-get($flaticon-map, "community-2");
+}
+.flaticon-community-3:before {
+    content: map-get($flaticon-map, "community-3");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-people:before {
+    content: map-get($flaticon-map, "people");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-work-from-home:before {
+    content: map-get($flaticon-map, "work-from-home");
+}
+.flaticon-wheelchair:before {
+    content: map-get($flaticon-map, "wheelchair");
+}
