@@ -2057,7 +2057,7 @@ h2.hidden {
     position: relative;
   }
   .c4-site-header #navbar > ul .menu-item-has-children > a:hover, .c4-site-header #navbar > ul .menu-item-has-children > a.active {
-    color: #91a3ff;
+    color: #dbd698;
   }
   .c4-site-header #navbar > ul .menu-item-has-children > a:before {
     font-family: "themify";
@@ -2075,7 +2075,7 @@ h2.hidden {
     top: 29%;
   }
   .c4-site-header #navbar > ul .menu-item-has-children > a.rotate {
-    color: #91a3ff;
+    color: #dbd698;
   }
 }
 @media screen and (min-width: 992px) {
