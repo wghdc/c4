@@ -4682,7 +4682,7 @@ c4-hero-section-6
 }
 
 .c4-about-text ul li::before {
-  content: "\f11a"; /* Matches .flaticon-left-quote */
+  content: "\f113"; /* Matches .flaticon-left-quote */
   font-family: "flaticon";
   position: absolute;
   left: 0;
