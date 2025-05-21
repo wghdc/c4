@@ -4655,7 +4655,7 @@ c4-hero-section-6
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  content: "";
+  content: "\f113";
   font-family: "Flaticon";
   color: #cfcca2;
 }
