@@ -204,18 +204,18 @@ h2.hidden {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 50px 0;
   }
   
   .c4-team-area-s2.section-padding {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .c4-blog-content p {
@@ -2075,7 +2075,7 @@ h2.hidden {
     top: 29%;
   }
   .c4-site-header #navbar > ul .menu-item-has-children > a.rotate {
-    color: #dbd698;
+    color: #91a3ff;
   }
 }
 @media screen and (min-width: 992px) {
@@ -6843,13 +6843,13 @@ c4-hero-section-6
 @media (max-width: 1200px) {
   .c4-about-section-s4,
 .c4-about-section-s5 {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 }
 @media (max-width: 991px) {
   .c4-about-section-s4,
 .c4-about-section-s5 {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 .c4-about-section-s4:before,
@@ -6985,7 +6985,7 @@ c4-hero-section-6
 /* 7.5 c4-campaign-area-s2 */
 .c4-testimonial-area-s3 {
   background: #fff;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 .c4-testimonial-area-s3 .c4-testimonial-item {
   box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
@@ -7010,7 +7010,7 @@ c4-hero-section-6
 @media (max-width: 991px) {
   .c4-features-section-s5 {
     margin-top: 0px;
-    padding-top: 100px;
+    padding-top: 60px;
   }
 }
 .c4-features-section-s5 .c4-features-item {
@@ -7022,17 +7022,17 @@ c4-hero-section-6
 }
 @media (max-width: 1400px) {
   .c4-features-section-s5 .c4-features-item {
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
 }
 @media (max-width: 1200px) {
   .c4-features-section-s5 .c4-features-item {
-    padding: 20px 10px;
+    padding: 20px 20px;
   }
 }
 @media (max-width: 991px) {
   .c4-features-section-s5 .c4-features-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 .c4-features-section-s5 .c4-features-item .c4-features-text {
@@ -10277,5 +10277,13 @@ input[type=checkbox]:checked:disabled + label:before {
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 auto;
+    display: block;
+}
+
+.post-slider,
+.post-slider img,
+.video-holder img {
+    width: 100%;
+    height: auto;
     display: block;
 }
