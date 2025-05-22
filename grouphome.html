@@ -25,7 +25,7 @@
 
 <body>
 
-     <!-- start page-wrapper -->
+    <!-- start page-wrapper -->
     <div class="page-wrapper">
         <!-- start preloader -->
         <div class="preloader">
@@ -67,8 +67,8 @@
     <div id="navbar" class="collapse navbar-collapse navigation-holder d-flex justify-content-end w-100">
         <button class="menu-close"><i class="ti-close"></i></button>
         <ul class="nav navbar-nav mb-2 mb-lg-0">
-                          <li class="menu-item-has-children"> <a href="index.html">Home</a></li>
-                     <li class="menu-item-has-children"><a  href="about.html">About Us</a> </li>
+                          <li> <a href="index.html">Home</a></li>
+                     <li><a  href="about.html">About Us</a> </li>
      <li class="menu-item-has-children"><a href="#">Services</a>
 		  <ul class="sub-menu"> <li><a href="dds.html">Developmental Disability Services</a></li>
                               <li><a href="hcs.html">Homemaker & Companion Services</a></li>
@@ -133,32 +133,29 @@
                               <div style="text-align:center;padding-top: 50px;">
                                     <h3>Video Tour</h3>
                                 </div>
-                              
+                              </div>
                             
                             
                             
 
 
-<div class="entry-media video-holder">
-  <div class="video-overlay">
+
+<div class="video-holder">
+  <div class="video-overlay" onclick="playVideo(this)">
     <img src="assets/images/gh/holder.png" alt class="video-poster">
-    <a href="#" class="video-btn" data-video="assets/images/gh/vid.mp4">
+    <div class="video-btn">
       <i class="fi flaticon-arrow-2"></i>
-    </a>
+    </div>
   </div>
-
-  <video
-    controls
-    class="inline-video"
-    style="display: none;"
-    poster=""
-  >
-    <source src="" type="video/mp4" />
+<div class="video-wrapper">
+  <video controls poster="assets/images/gh/holder.png" preload="none">
+    <source src="https://nmclient.s3.us-east-2.amazonaws.com/cared4_4383yfhrw3y82_vid.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
 
 
+</div>
 
 
 
@@ -310,7 +307,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
-                    <p class="copyright"> &copy; 2025 Cared4 LLC. Crafted by <a href="nextmilestone.io">Next Milestone</a>. All Rights Reserved.</p>
+                    <p class="copyright"> &copy; 2025 Cared4 LLC. Crafted by <a href="https://www.nextmilestone.io"><strong>Next Milestone</strong></a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
