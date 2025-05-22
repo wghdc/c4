@@ -10303,45 +10303,13 @@ input[type=checkbox]:checked:disabled + label:before {
   }
 }
 
-.video-holder {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  aspect-ratio: 1 / 1;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 6px;
-}
 
 .video-overlay {
   position: relative;
   cursor: pointer;
 }
 
-.video-poster {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 6px;
-}
 
-.video-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0.5);
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 30px;
-  z-index: 2;
-}
 
 .video-overlay,
 .inline-video {
@@ -10436,9 +10404,7 @@ input[type=checkbox]:checked:disabled + label:before {
   overflow: hidden;
 }
 
-.video-holder {
-  aspect-ratio: 1 / 1;
-}
+
 
 .video-holder video {
   width: 100%;
@@ -10480,4 +10446,166 @@ input[type=checkbox]:checked:disabled + label:before {
   object-fit: cover;
   display: block;
   border-radius: 0;
+}
+
+
+
+.video-overlay,
+.inline-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.post-slider.owl-carousel {
+  width: 100%;
+  max-width: 1200px;
+  height: 778px;
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
+
+.post-slider.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .post-slider.owl-carousel {
+    height: 50vh; /* 50% of the screen height */
+  }
+}
+
+@media (max-width: 767px) {
+  .post-slider.owl-carousel {
+    height: 320px; /* Adjust to what feels right on mobile */
+  }
+}
+
+
+.video-holder video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* fix: no more cropping */
+  border-radius: 12px;
+  display: block;
+  position: relative;    /* not absolute */
+  z-index: 1;
+}
+
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.video-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.video-holder video,
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+
+
+
+.video-holder video,
+.video-holder .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+
+.video-holder {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 4 / 5;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #000; /* avoid white bars during load */
+}
+
+.format-video video {
+  width: 100%;
+  max-width: 480px;       /* Or whatever size you want */
+  aspect-ratio: 4 / 5;    /* Locks height relative to width */
+  display: block;
+  margin: 40px auto;      /* Centers it */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Video wrapper to enforce consistent sizing */
+.video-wrapper {
+  width: 100%;
+  max-width: 600px; /* Adjust based on your desired width */
+  margin: 0 auto;
+  aspect-ratio: 4 / 5;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px; /* optional for rounded edges */
+}
+
+/* Video itself should stretch and stay centered */
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Optional: ensure controls are not clipped */
+.video-wrapper video::-webkit-media-controls {
+  z-index: 2;
 }
