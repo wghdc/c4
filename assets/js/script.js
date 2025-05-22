@@ -143,7 +143,7 @@
                     var innerTranslate = slideProgress * innerOffset;
                     swiper.slides[i].querySelector(".slide-inner").style.transform =
                     "translate3d(" + innerTranslate + "px, 0, 0)";
-                }      
+                }
             },
 
             touchStart: function() {
@@ -220,26 +220,26 @@
 
 
     /*------------------------------------------
-        = POPUP VIDEO
+        =  VIDEO
     -------------------------------------------*/
     if ($(".video-btn").length) {
-        $(".video-btn").on("click", function(){
-            $.fancybox({
-                href: this.href,
-                type: $(this).data("type"),
-                'title'         : this.title,
-                helpers     : {
-                    title : { type : 'inside' },
-                    media : {}
-                },
+    $(".video-btn").on("click", function(e) {
+        e.preventDefault();
+        var $btn = $(this);
+        var $holder = $btn.closest(".video-holder");
+        var video = $holder.find("video")[0];
+        var src = $btn.data("video");
 
-                beforeShow : function(){
-                    $(".fancybox-wrap").addClass("gallery-fancybox");
-                }
-            });
-            return false
-        });
-    }
+        if (src) {
+            $holder.find("video source").attr("src", src);
+            video.load();
+            video.play();
+        }
+
+        $holder.find(".video-overlay").hide();
+        $holder.find("video").show();
+    });
+}
 
 
     /*------------------------------------------
@@ -643,7 +643,7 @@
             dots: false,
             items: 1
         });
-    }  
+    }
 
 
 
@@ -732,7 +732,7 @@
     ==========================================================================*/
         $(window).on('load', function() {
 
-            preloader();  
+            preloader();
             
             sortingGallery();
 
@@ -792,7 +792,7 @@
         } else {
             $pwd.attr('type', 'text');
         }
-    });  
+    });
 
     $(".reveal2").on('click', function() {
         var $pwd = $(".pwd3");
