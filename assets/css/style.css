@@ -10272,18 +10272,212 @@ input[type=checkbox]:checked:disabled + label:before {
   justify-content: flex-start;
 }
 
-.post.format-video,
-.entry-media {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto;
-    display: block;
+.video-holder,
+.post-slider {
+  min-height: 200px; /* Remove after confirming media loads */
+  background-color: rgba(0, 0, 0, 0.03); /* Optional debug visual */
 }
 
-.post-slider,
-.post-slider img,
-.video-holder img {
-    width: 100%;
-    height: auto;
-    display: block;
+.video-holder::before,
+.video-holder::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+
+.video-holder video {
+  width: 100%;
+  max-width: 500px; /* or whatever cap you prefer */
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto; /* center horizontally */
+  border-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .video-holder video {
+    max-width: 100%;
+  }
+}
+
+.video-holder {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.video-overlay {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+}
+
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.5);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  z-index: 2;
+}
+
+.video-overlay,
+.inline-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+}
+
+.post-slider.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-slider.owl-carousel {
+   width: 100%;
+  max-width: 1200px;
+  height: 778px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.entry-media {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .post-slider.owl-carousel {
+    height: 400px;
+  }
+}
+
+.post-slider.owl-carousel .owl-stage,
+.post-slider.owl-carousel .owl-stage-outer,
+.post-slider.owl-carousel .owl-item {
+  height: 100%;
+}
+
+.post-slider.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-holder,
+.post-slider.owl-carousel,
+.entry-media,
+.video-overlay {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.video-holder::before,
+.video-holder::after,
+.post-slider::before,
+.post-slider::after {
+  content: none !important;
+  display: none !important;
+}
+
+.video-holder,
+.post-slider.owl-carousel,
+.entry-media,
+.video-overlay {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  border-radius: 12px; /* Adjust for preferred rounding */
+  overflow: hidden; /* Ensures child elements honor the radius */
+}
+
+.video-holder,
+.post-slider.owl-carousel {
+  width: 100%;
+  max-width: 600px; /* was 1200 — scaled down to reduce height too */
+  margin: 40px auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-holder {
+  aspect-ratio: 1 / 1;
+}
+
+.video-holder video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-slider.owl-carousel {
+  aspect-ratio: 1200 / 778; /* Keeps proportion */
+}
+
+.post-slider.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.post-slider.owl-carousel {
+  width: 100%;
+  max-width: 960px; /* Still desktop-friendly */
+  height: 389px;     /* Half of original 778 */
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+.post-slider.owl-carousel .owl-stage,
+.post-slider.owl-carousel .owl-stage-outer,
+.post-slider.owl-carousel .owl-item {
+  height: 100%;
+}
+
+.post-slider.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
 }
