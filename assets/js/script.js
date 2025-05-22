@@ -222,25 +222,28 @@
     /*------------------------------------------
         =  VIDEO
     -------------------------------------------*/
-    if ($(".video-btn").length) {
-    $(".video-btn").on("click", function(e) {
-        e.preventDefault();
-        var $btn = $(this);
-        var $holder = $btn.closest(".video-holder");
-        var video = $holder.find("video")[0];
-        var src = $btn.data("video");
+  if ($(".video-btn").length) {
+  $(".video-btn").on("click", function (e) {
+    e.preventDefault();
 
-        if (src) {
-            $holder.find("video source").attr("src", src);
-            video.load();
-            video.play();
-        }
+    var $btn = $(this);
+    var $overlay = $btn.closest(".video-overlay");
+    var $holder = $overlay.closest(".video-holder");
+    var $video = $holder.find("video");
+    var videoEl = $video.get(0);
+    var src = $btn.data("video");
 
-        $holder.find(".video-overlay").hide();
-        $holder.find("video").show();
-    });
+    if (src && $video.find("source").attr("src") !== src) {
+      $video.find("source").attr("src", src);
+      videoEl.load();
+    }
+
+    $overlay.hide(); // hide overlay with poster and play button
+    videoEl.play();  // play inline
+
+    // No resizing or DOM layout shift occurs because container is stable
+  });
 }
-
 
     /*------------------------------------------
         = ACTIVE GALLERY POPUP IMAGE
