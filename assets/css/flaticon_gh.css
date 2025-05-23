@@ -1,0 +1,92 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_gh";
+    src: url("./flaticon_gh.woff2?791393df7a1790dbc1650a93970ea473") format("woff2"),
+url("./flaticon_gh.woff?791393df7a1790dbc1650a93970ea473") format("woff"),
+url("./flaticon_gh.eot?791393df7a1790dbc1650a93970ea473#iefix") format("embedded-opentype"),
+url("./flaticon_gh.ttf?791393df7a1790dbc1650a93970ea473") format("truetype"),
+url("./flaticon_gh.svg?791393df7a1790dbc1650a93970ea473#flaticon_gh") format("svg")
+}
+
+i[class^="flaticon_gh-"]:before, i[class*=" flaticon_gh-"]:before {
+    font-family: flaticon_gh !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon_gh-social-responsibility:before {
+    content: "\f101";
+}
+.flaticon_gh-public-service:before {
+    content: "\f102";
+}
+.flaticon_gh-public-service-1:before {
+    content: "\f103";
+}
+.flaticon_gh-family:before {
+    content: "\f104";
+}
+.flaticon_gh-family-1:before {
+    content: "\f105";
+}
+.flaticon_gh-checklist:before {
+    content: "\f106";
+}
+.flaticon_gh-listing:before {
+    content: "\f107";
+}
+.flaticon_gh-home:before {
+    content: "\f108";
+}
+.flaticon_gh-video-editing:before {
+    content: "\f109";
+}
+.flaticon_gh-play:before {
+    content: "\f10a";
+}
+.flaticon_gh-play-button:before {
+    content: "\f10b";
+}
+.flaticon_gh-camera:before {
+    content: "\f10c";
+}
+.flaticon_gh-old-video-camera:before {
+    content: "\f10d";
+}
+.flaticon_gh-camera-1:before {
+    content: "\f10e";
+}
+.flaticon_gh-house:before {
+    content: "\f10f";
+}
+.flaticon_gh-home-1:before {
+    content: "\f110";
+}
+.flaticon_gh-activity:before {
+    content: "\f111";
+}
+.flaticon_gh-exercise:before {
+    content: "\f112";
+}
+.flaticon_gh-group:before {
+    content: "\f113";
+}
+.flaticon_gh-routine:before {
+    content: "\f114";
+}
+
