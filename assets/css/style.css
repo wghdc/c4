@@ -10674,3 +10674,12 @@ input[type=checkbox]:checked:disabled + label:before {
 .group-home .c4-features-item {
   margin-bottom: 20px; /* reduced from default spacing */
 }
+
+
+@media (max-width: 767px) {
+  .container,
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
