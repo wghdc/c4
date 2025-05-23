@@ -10609,3 +10609,68 @@ input[type=checkbox]:checked:disabled + label:before {
 .video-wrapper video::-webkit-media-controls {
   z-index: 2;
 }
+
+
+
+.group-home .c4-features-item {
+  height: auto;
+  min-height: 120px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.group-home .c4-features-icon .icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.group-home .c4-features-text h2 {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.3;
+}
+
+
+
+@font-face {
+  font-family: "flaticon_gh";
+  src: url("../fonts/flaticon_gh.woff2") format("woff2"),
+       url("../fonts/flaticon_gh.woff") format("woff"),
+       url("../fonts/flaticon_gh.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon_gh-"]:before,
+[class*=" flaticon_gh-"]:before {
+  font-family: "flaticon_gh" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.group-home .c4-section-title p {
+  max-width: none;
+  width: 100%;
+  text-align: justify;
+}
+
+/* Group Home Page */
+.group-home .c4-features-item {
+  margin-bottom: 20px; /* reduced from default spacing */
+}
